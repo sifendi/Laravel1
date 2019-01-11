@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Wake up PT.SISI
                 </div>
 
                 <div class="links">
