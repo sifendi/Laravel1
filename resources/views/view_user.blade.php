@@ -84,15 +84,14 @@
                     Laravel
                 </div>
 
-                <div class="links">
+                <p> Nama : {{$data1}} </p>
+                <p>Mata Pelajaran</p>
+                <ul>
+                    @foreach($data2 as $m)
+                    <li>{{ $m }}</li>
+                    @endforeach
+                </ul>
 
-                    <a href="https://laravel.com/docs">A</a>
-                    <a href="https://laracasts.com">B</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
             </div>
         </div>
     </body>
